@@ -1,0 +1,16 @@
+#image {
+	
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+#menu_text {
+	margin: 0;
+	padding: 10 px;
+	text-align: center;
+	font-size: 400%;
+
+}
+#text_content {
+	text-align: center;
+}
