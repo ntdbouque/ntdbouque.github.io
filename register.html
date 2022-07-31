@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DLLT Form</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="DLLT Form"/>
+	<meta name="keyword" content="form, course, it, registration"/>
+	<meta name="author"  content="dung lai lap trinh"/>
+	<script src="register.js"></script>
+</head>
+<body>
+	<h1>DLLT Education</h1>
+	<h2>Registration Form</h2>
+
+	<form id="registerForm" method="post" action="confirm.html">
+		<fieldset>
+			<legend>Personal information</legend>
+			<p>
+				<label for="firstname">Enter your Firstname </label>
+				<input type="text" name="Firstname"  id ="firstname"> </input>
+			</p>
+			<p>
+				<label for="lastname">Enter your Lastname </label>
+				<input type="text" name="Lastname"  id ="lastname"> </input>
+			</p>
+			<p>
+				<label for="email">Enter your Email </label>
+				<input type="text" name="Email"  id ="email"> </input>
+			</p>
+			<p>
+				<label for="phonenumber">Enter your Phone number </label>
+				<input type="text" name="Phonenumber"  id ="phonenumber"> </input>
+			</p>
+
+			<p>
+				<label for="age">Enter your Age </label>
+				<input type="text" name="Age"  id ="age"> </input>
+			</p>
+		</fieldset>
+
+		<br/>
+		<fieldset>
+			<legend>Select your occupation </legend>
+			<label for="highschool">HighSchool</label>
+			<input type="radio" name="occupation" id="highschool" value="highschool"/><br/>
+
+			<label for="university">University</label>
+			<input type="radio"  name="occupation" id="university" value="university"/><br/>
+
+			<label for="working">Working</label>
+			<input type="radio" name="occupation" id="working" value="working"/><br/>
+
+			<label for="retired">Retired</label>
+			<input type="radio" name="occupation" id="retired" value="retired"/><br/>
+		</fieldset>
+		<fieldset>
+
+			<legend>Select Course</legend>
+			<label for="logicmath">Logic Math - 499k</label>
+			<input type="checkbox" id="logicmath" name="course_LogicMath" value="Select"/><br/>
+
+			<label for="logicmath">Python Basic - 799k</label>
+			<input type="checkbox" id="logicmath" name="course_Python" value="Select"/><br/>
+
+			<label for="webbasic">Web Basic - 4399k</label>
+			<input type="checkbox" id="webbasic" name="course_web" value="Select"/><br/>
+
+			<label for="ai">AI - 4919k</label>
+			<input type="checkbox" id="ai" name="course_ai" value="Select"/>
+
+		</fieldset>
+		<br/>
+		<label for="payment"> Payment Method </label>
+		<select name="payment" id="payment">
+			<option value="none">Please select</option>
+			<option value="paypal">Paypal</option>
+			<option value="creditcard">Credit Card</option>
+		</select>
+
+		<br/>
+		<br/>
+	<input type="submit" value="Register Now"/>
+	<input type="reset" value="Reset"/>
+
+	</form>
+
+
+
+
+</body>
+</html>
